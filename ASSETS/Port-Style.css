@@ -1,0 +1,213 @@
+body {
+    font-family: 'Trebuchet MS';
+    background-image: url("Images/topography.png")
+}
+
+header {
+    background-image: url("Images/footer_lodyas.png");
+    padding: 5px;   
+    color:rgb(255, 174, 0);
+    padding-left: 40px;
+    font-size: 35px;
+    border-bottom:5px solid rgb(255, 174, 0);
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 60px;
+}
+#name {
+    width: 500px;
+    float: left;
+}
+
+
+
+a {
+    color: rgb(207, 206, 206);
+    font-size: 25px
+}
+
+#headLink {
+    float: left;
+    margin-top: 65px;
+    margin-left:420px;
+    width: 500px;
+
+}
+
+#main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    overflow:auto;
+}
+
+#abtme {
+    width: 650px;
+    margin-top: 40px;
+    border:2px solid rgb(177, 175, 175);
+    background-color: rgb(255, 255, 255);
+    float: left;
+    overflow: auto;
+}
+#bioT {
+    font-size: 40px;
+    padding-left:15px;
+    color: rgb(0, 89, 255)
+}
+
+#profileimg {
+    width: 630px;
+    height: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float:left;
+    overflow: auto;
+   
+}
+
+#bioP {
+margin-left: 10px;
+color:rgb(99, 97, 97);
+}
+
+#connect {
+    width: 30%;
+    float: right; 
+}
+
+#reach {
+    color:rgb(0, 89, 255);
+    margin-top: 37px;
+    margin-bottom:0px;
+    font-size: 35px;
+}
+
+#github_logo {
+width:88px;
+
+}
+
+#linkedin_logo {
+ width:88px;
+    
+}
+
+#stackoverflow_logo {
+ width:88px;
+        
+}
+footer {
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    color: rgb(207, 206, 206);
+    border-top: 2px solid rgb(255, 174, 0);
+    margin-top:10px;
+}
+
+
+#conForm {
+    width: 650px;
+    margin-top: 40px;
+    border:2px solid rgb(177, 175, 175);
+    background-color: rgb(255, 255, 255);
+    float:left;
+    overflow: auto;
+}
+
+#conTi {
+    font-size: 40px;
+    padding-left:15px;
+    color: rgb(0, 89, 255);
+}
+
+form {
+    margin-left: 60px;
+    color: rgb(109, 108, 108);
+}
+
+input {
+    color:rgb(155, 153, 153);
+    width: 500px; 
+}
+
+#subbut {
+    width:100px;
+    margin-bottom:20px;
+}
+
+#portfolio {
+    width: 650px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border:2px solid rgb(177, 175, 175);
+    background-color: rgb(255, 255, 255);
+    float: left;
+    overflow: auto;
+}
+#portTi {
+    font-size: 40px;
+    padding-left:15px;
+    background-color: rgb(53, 53, 53);
+    color: rgb(0, 89, 255);
+}
+
+#hang {
+    position: relative;
+    width: 200px;
+    margin-left:80px;
+    float:left;
+    
+}
+
+#upleft {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+    left: 0px;
+}
+
+
+#rpg {
+    position: relative;
+    width: 200px;
+    margin-right:80px;
+    margin-left: 80px;
+    float: left;
+}
+
+#upright {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+    left:650px;
+    bottom:190px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+#upleft {
+    position: absolute;
+    color: white;
+    bottom:130px;
+    left:362px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(109, 108, 108);
+    width:200px;
+}
+

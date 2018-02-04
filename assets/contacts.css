@@ -1,0 +1,144 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    background-image: url("Images/topography.png");
+    min-height: 100%;
+}
+
+header {
+    background-image: url("Images/footer_lodyas.png");
+    padding: 5px;   
+    color:rgb(255, 174, 0);
+    padding-left: 40px;
+    font-size: 35px;
+    border-bottom:5px solid rgb(255, 174, 0);
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-size: 60px;
+}
+#name {
+    width: 500px;
+    float: left;
+
+}
+
+
+
+a {
+    color: rgb(207, 206, 206);
+    font-size: 25px
+
+}
+
+#headLink {
+    float: left;
+    margin-top: 45px;
+    margin-left:420px;
+    width: 500px;
+
+}
+
+#main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
+
+}
+
+
+#bioP {
+margin-left: 10px;
+color:rgb(99, 97, 97);
+
+}
+
+#connect {
+    width: 270px;
+    float: right; 
+    margin-right: 15px;
+   
+}
+
+#reach {
+    color:rgb(0, 89, 255);
+    margin-top: 37px;
+    margin-bottom:0px;
+    font-size: 35px;
+}
+
+#github_logo {
+    width:80px;
+
+}
+
+#linkedin_logo {
+    width:80px;
+    
+}
+
+#stackoverflow_logo {
+    width:80px;
+
+}       
+
+
+
+#conForm {
+    width: 650px;
+    margin-top: 40px;
+    border:2px solid rgb(177, 175, 175);
+    background-color: rgb(255, 255, 255);
+    float:left;
+    overflow: auto;
+}
+
+#conTi {
+    /* font-size: 40px;
+    padding-left:15px;
+    color: rgb(0, 89, 255); */
+    font-size: 40px;
+    padding-left:15px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom:20px;
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(109, 108, 108);
+}
+
+form {
+    margin-left: 60px;
+    color: rgb(109, 108, 108);
+}
+
+input {
+    color:rgb(155, 153, 153);
+    width: 500px; 
+}
+
+#subbut {
+    width:100px;
+    margin-bottom:20px;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    color: rgb(207, 206, 206);
+    border-top: 2px solid rgb(255, 174, 0);
+    margin-top:10px;
+    padding-top: 20px;
+    padding: 20px;
+    bottom:0;
+    width:100%;
+}

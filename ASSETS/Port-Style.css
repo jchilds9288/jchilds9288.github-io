@@ -1,10 +1,20 @@
+#portpage {
+    position: relative;
+    height: 1250px;
+}
+
+#indexpage {
+    position: relative;
+    height:1100px;
+}
+
 body {
     font-family: 'Trebuchet MS';
-    background-image: url("Images/topography.png")
+    background-image: url("images/topography.png")
 }
 
 header {
-    background-image: url("Images/footer_lodyas.png");
+    background-image: url("images/footer_lodyas.png");
     padding: 5px;   
     color:rgb(255, 174, 0);
     padding-left: 40px;
@@ -14,15 +24,15 @@ header {
 }
 
 h1 {
-    margin-top: 20px;
-    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom:40px;
+    font-size: 60px; 
 }
+
 #name {
     width: 500px;
     float: left;
 }
-
-
 
 a {
     color: rgb(207, 206, 206);
@@ -31,7 +41,7 @@ a {
 
 #headLink {
     float: left;
-    margin-top: 65px;
+    margin-top: 45px;
     margin-left:420px;
     width: 500px;
 
@@ -42,7 +52,6 @@ a {
     margin-left: auto;
     margin-right: auto;
    
-    overflow:auto;
 }
 
 #abtme {
@@ -51,18 +60,25 @@ a {
     border:2px solid rgb(177, 175, 175);
     background-color: rgb(255, 255, 255);
     float: left;
-    overflow: auto;
+   
 }
+
 #bioT {
     font-size: 40px;
     padding-left:15px;
-    color: rgb(0, 89, 255)
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom:20px;
+    color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(207, 206, 206);
 }
 
 #profileimg {
     width: 630px;
     height: 300px;
     margin-left: 10px;
+    margin-top: 10px;
     margin-bottom: 10px;
     float:left;
     overflow: auto;
@@ -72,41 +88,43 @@ a {
 #bioP {
 margin-left: 10px;
 color:rgb(99, 97, 97);
+
 }
 
 #connect {
-    width: 30%;
-    float: right; 
+    width: 270px;
+    float: right;
+    margin-right: 15px; 
+   
 }
 
 #reach {
     color:rgb(0, 89, 255);
     margin-top: 37px;
     margin-bottom:0px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(207, 206, 206);
     font-size: 35px;
 }
 
+
 #github_logo {
-width:88px;
+    margin-top:15px;
+    width:80px;
 
 }
 
 #linkedin_logo {
- width:88px;
+    margin-top:15px;
+    width:80px;
     
 }
 
 #stackoverflow_logo {
- width:88px;
-        
-}
-footer {
-    background-color: rgb(53, 53, 53);
-    text-align: center;
-    color: rgb(207, 206, 206);
-    border-top: 2px solid rgb(255, 174, 0);
-    margin-top:10px;
-}
+    margin-top:15px;
+    width:80px;
+}    
+
 
 
 #conForm {
@@ -121,11 +139,17 @@ footer {
 #conTi {
     font-size: 40px;
     padding-left:15px;
+    margin-top:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom:20px;
     color: rgb(0, 89, 255);
+    border-bottom: 2px solid rgb(207, 206, 206);
 }
 
 form {
     margin-left: 60px;
+    margin-top: 10px;
     color: rgb(109, 108, 108);
 }
 
@@ -139,75 +163,147 @@ input {
     margin-bottom:20px;
 }
 
-#portfolio {
-    width: 650px;
-    margin-top: 40px;
-    padding-bottom: 30px;
-    border:2px solid rgb(177, 175, 175);
-    background-color: rgb(255, 255, 255);
-    float: left;
-    overflow: auto;
-}
-#portTi {
-    font-size: 40px;
-    padding-left:15px;
+    #portTi {    
+        font-size: 40px;
+        padding-left:15px;
+        margin-top:20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-bottom:20px;
+        color: rgb(0, 89, 255);
+        border-bottom: 2px solid rgb(207, 206, 206);
+    
+    }
+    
+    #container-1 {
+        position: relative;
+        float:left
+    }
+    
+    #hang {
+        width: 200px;
+        margin-left:83.3px;
+        margin-top: 40px;
+        /* float:left;   */
+    }
+    
+    #upleft {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(109, 108, 108);
+        width:200px;
+        bottom:45px;
+        left:83.3px;
+    }
+    
+    #container-2 {
+        position: relative;
+        float: left;
+       
+    }
+    
+    #rpg {
+        width: 200px;
+        margin-left: 83.3px;
+        margin-top: 40px;
+        /* float: left; */
+    }
+    
+    #upright {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(109, 108, 108);
+        width: 200px;
+        bottom:45px;
+        left: 83.3px;
+    }
+    
+    #container-3 {
+        position: relative;
+        float:left
+    }
+    
+    #trivia {
+        width: 200px;
+        margin-left: 83.3px;
+        margin-top: 40px;
+        /* float: left; */
+    }
+    
+    #midleft {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(109, 108, 108);
+        width:200px;
+        bottom:45px;
+        left:83.3px;
+    }
+    
+    #container-4 {
+        position: relative;
+        float:left
+    }
+    #rutgers {
+        width: 200px;
+        margin-left: 83.3px;
+        margin-top: 40px;
+        /* float: left; */
+    }
+    
+    #midright {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(109, 108, 108);
+        width:200px;
+        bottom:45px;
+        left:83.3px;
+    }
+    
+    #container-5 {
+        position: relative;
+        float:left;
+        margin-bottom: 40px;
+    }
+    #rps {
+        width: 200px;
+        margin-left: 83.3px;
+        margin-top: 40px;
+        /* margin-bottom:40px; */
+        /* float: left; */
+    }
+    
+    #botleft {
+        position: absolute;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(109, 108, 108);
+        width:200px;
+        bottom:45px;
+        left:83.3px;
+        
+    }
+
+
+footer {
+    position: absolute;
     background-color: rgb(53, 53, 53);
-    color: rgb(0, 89, 255);
-}
-
-#hang {
-    position: relative;
-    width: 200px;
-    margin-left:80px;
-    float:left;
-    
-}
-
-#upleft {
-    position: absolute;
-    color: white;
     text-align: center;
-    font-size: 22px;
-    background-color: rgb(109, 108, 108);
-    width:200px;
-    left: 0px;
+    color: rgb(207, 206, 206);
+    border-top: 2px solid rgb(255, 174, 0);
+    margin-top:10px;
+    padding-top: 20px;
+    padding: 20px;
+    bottom:0;
+    width:100%;
 }
 
-
-#rpg {
-    position: relative;
-    width: 200px;
-    margin-right:80px;
-    margin-left: 80px;
-    float: left;
-}
-
-#upright {
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-size: 22px;
-    background-color: rgb(109, 108, 108);
-    width:200px;
-    left:650px;
-    bottom:190px;
-}
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    
-    
-}
-
-#upleft {
-    position: absolute;
-    color: white;
-    bottom:130px;
-    left:362px;
-    text-align: center;
-    font-size: 22px;
-    background-color: rgb(109, 108, 108);
-    width:200px;
-}
 
